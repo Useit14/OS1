@@ -192,12 +192,12 @@ namespace List
             }
             return i;
         }
-        private int[] MergeSort(int [] target,int[] left,int[]right)
+        private int[] MergeSort(int[] target, int[] left, int[] right)
         {
             int indexMinTarget = 0;
             int indexMinLeft = 0;
             int indexMinRight = 0;
-            while(indexMinLeft<left.Length && indexMinRight < right.Length)
+            while (indexMinLeft < left.Length && indexMinRight < right.Length)
             {
                 if (left[indexMinLeft] <= right[indexMinRight])
                 {
@@ -211,27 +211,27 @@ namespace List
                     indexMinRight++;
                     indexMinTarget++;
                 }
-                    
+
             }
-            
-                if(indexMinLeft >= left.Length)
+
+            if (indexMinLeft >= left.Length)
+            {
+                for (int i = indexMinRight; i < right.Length; i++)
                 {
-                    for (int i = indexMinRight; i < right.Length; i++)
-                    {
-                        target[indexMinTarget] = right[indexMinRight];
-                        indexMinRight++;
-                        indexMinTarget++;
-                    }
+                    target[indexMinTarget] = right[indexMinRight];
+                    indexMinRight++;
+                    indexMinTarget++;
                 }
-                else
+            }
+            else
+            {
+                for (int j = indexMinLeft; j < left.Length; j++)
                 {
-                    for (int j = indexMinLeft; j < left.Length; j++)
-                    {
-                        target[indexMinTarget] = left[indexMinLeft];
-                        indexMinLeft++;
-                        indexMinTarget++;
-                    }
+                    target[indexMinTarget] = left[indexMinLeft];
+                    indexMinLeft++;
+                    indexMinTarget++;
                 }
+            }
             return target;
         }
         public void DivideForMegre(int[] array)
@@ -253,7 +253,7 @@ namespace List
             }
             DivideForMegre(left);
             DivideForMegre(right);
-            var result=MergeSort(array, left, right);
+            var result = MergeSort(array, left, right);
             var current = first;
             for (int i = 0; i < result.Length; i++)
             {
@@ -274,9 +274,9 @@ namespace List
             }
             return arrayOut;
         }
-        public  void Draw(ListBox listBox ,Series series)
+        public void Draw(ListBox listBox, Series series)
         {
-            int [] currentArray= ToArray();
+            int[] currentArray = ToArray();
             series.Points.Clear();
             for (int i = 0; i < listBox.Items.Count; i++)
             {

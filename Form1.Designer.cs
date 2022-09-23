@@ -41,21 +41,27 @@
             this.buttonFindByIndex = new System.Windows.Forms.Button();
             this.buttonSort = new System.Windows.Forms.Button();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.idProcess = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(20, 79);
+            this.listBox1.Location = new System.Drawing.Point(314, 82);
             this.listBox1.Margin = new System.Windows.Forms.Padding(2);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(176, 186);
+            this.listBox1.Size = new System.Drawing.Size(176, 407);
             this.listBox1.TabIndex = 0;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(20, 49);
+            this.textBox1.Location = new System.Drawing.Point(91, 30);
             this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(90, 20);
@@ -63,7 +69,7 @@
             // 
             // buttonAppend
             // 
-            this.buttonAppend.Location = new System.Drawing.Point(119, 44);
+            this.buttonAppend.Location = new System.Drawing.Point(200, 292);
             this.buttonAppend.Margin = new System.Windows.Forms.Padding(2);
             this.buttonAppend.Name = "buttonAppend";
             this.buttonAppend.Size = new System.Drawing.Size(68, 28);
@@ -74,7 +80,7 @@
             // 
             // buttonRemoveByIndex
             // 
-            this.buttonRemoveByIndex.Location = new System.Drawing.Point(200, 111);
+            this.buttonRemoveByIndex.Location = new System.Drawing.Point(185, 62);
             this.buttonRemoveByIndex.Margin = new System.Windows.Forms.Padding(2);
             this.buttonRemoveByIndex.Name = "buttonRemoveByIndex";
             this.buttonRemoveByIndex.Size = new System.Drawing.Size(68, 28);
@@ -85,7 +91,7 @@
             // 
             // buttonPrepend
             // 
-            this.buttonPrepend.Location = new System.Drawing.Point(192, 44);
+            this.buttonPrepend.Location = new System.Drawing.Point(200, 334);
             this.buttonPrepend.Margin = new System.Windows.Forms.Padding(2);
             this.buttonPrepend.Name = "buttonPrepend";
             this.buttonPrepend.Size = new System.Drawing.Size(68, 28);
@@ -96,7 +102,7 @@
             // 
             // buttonAddMidlle
             // 
-            this.buttonAddMidlle.Location = new System.Drawing.Point(200, 79);
+            this.buttonAddMidlle.Location = new System.Drawing.Point(185, 30);
             this.buttonAddMidlle.Margin = new System.Windows.Forms.Padding(2);
             this.buttonAddMidlle.Name = "buttonAddMidlle";
             this.buttonAddMidlle.Size = new System.Drawing.Size(68, 28);
@@ -107,7 +113,7 @@
             // 
             // buttonFindByKey
             // 
-            this.buttonFindByKey.Location = new System.Drawing.Point(200, 143);
+            this.buttonFindByKey.Location = new System.Drawing.Point(185, 94);
             this.buttonFindByKey.Margin = new System.Windows.Forms.Padding(2);
             this.buttonFindByKey.Name = "buttonFindByKey";
             this.buttonFindByKey.Size = new System.Drawing.Size(68, 28);
@@ -118,7 +124,7 @@
             // 
             // buttonFindByIndex
             // 
-            this.buttonFindByIndex.Location = new System.Drawing.Point(200, 175);
+            this.buttonFindByIndex.Location = new System.Drawing.Point(185, 126);
             this.buttonFindByIndex.Margin = new System.Windows.Forms.Padding(2);
             this.buttonFindByIndex.Name = "buttonFindByIndex";
             this.buttonFindByIndex.Size = new System.Drawing.Size(68, 28);
@@ -129,7 +135,7 @@
             // 
             // buttonSort
             // 
-            this.buttonSort.Location = new System.Drawing.Point(200, 207);
+            this.buttonSort.Location = new System.Drawing.Point(185, 158);
             this.buttonSort.Margin = new System.Windows.Forms.Padding(2);
             this.buttonSort.Name = "buttonSort";
             this.buttonSort.Size = new System.Drawing.Size(68, 28);
@@ -144,37 +150,84 @@
             this.chart1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(310, 23);
+            this.chart1.Location = new System.Drawing.Point(508, 82);
             this.chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(300, 262);
+            this.chart1.Size = new System.Drawing.Size(332, 398);
             this.chart1.TabIndex = 10;
             this.chart1.Text = "chart1";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(91, 62);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(90, 20);
+            this.textBox2.TabIndex = 11;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(91, 94);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(90, 20);
+            this.textBox3.TabIndex = 12;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(91, 126);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(90, 20);
+            this.textBox4.TabIndex = 13;
+            // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.idProcess);
+            this.panel1.Controls.Add(this.textBox4);
+            this.panel1.Controls.Add(this.textBox3);
+            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.buttonSort);
+            this.panel1.Controls.Add(this.buttonFindByIndex);
+            this.panel1.Controls.Add(this.buttonFindByKey);
+            this.panel1.Controls.Add(this.buttonAddMidlle);
+            this.panel1.Controls.Add(this.buttonRemoveByIndex);
+            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Location = new System.Drawing.Point(15, 49);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(279, 215);
+            this.panel1.TabIndex = 14;
+            // 
+            // idProcess
+            // 
+            this.idProcess.AutoSize = true;
+            this.idProcess.Location = new System.Drawing.Point(16, 38);
+            this.idProcess.Name = "idProcess";
+            this.idProcess.Size = new System.Drawing.Size(35, 13);
+            this.idProcess.TabIndex = 14;
+            this.idProcess.Text = "label1";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(628, 297);
+            this.ClientSize = new System.Drawing.Size(868, 492);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.chart1);
-            this.Controls.Add(this.buttonSort);
-            this.Controls.Add(this.buttonFindByIndex);
-            this.Controls.Add(this.buttonFindByKey);
-            this.Controls.Add(this.buttonAddMidlle);
             this.Controls.Add(this.buttonPrepend);
-            this.Controls.Add(this.buttonRemoveByIndex);
             this.Controls.Add(this.buttonAppend);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.listBox1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -190,5 +243,10 @@
         private System.Windows.Forms.Button buttonFindByIndex;
         private System.Windows.Forms.Button buttonSort;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label idProcess;
     }
 }

@@ -35,7 +35,7 @@ namespace List
             try
             {
                 listBox1.Items.Clear();
-                list.Prepend(Convert.ToInt32(textBox1.Text));
+                list.Items.Add(Convert.ToInt32(textBox1.Text));
                 ToList();
                 textBox1.Clear();
             }
