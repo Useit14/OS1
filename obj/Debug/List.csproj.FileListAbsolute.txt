@@ -9,3 +9,23 @@ C:\Users\Admin1\Documents\SAOD_2072_Yarovoy_Roman-Useit14--task_List\List\obj\De
 C:\Users\Admin1\Documents\SAOD_2072_Yarovoy_Roman-Useit14--task_List\List\obj\Debug\List.exe
 C:\Users\Admin1\Documents\SAOD_2072_Yarovoy_Roman-Useit14--task_List\List\obj\Debug\List.pdb
 C:\Users\Admin1\Documents\SAOD_2072_Yarovoy_Roman-Useit14--task_List\List\obj\Debug\List.Form1.resources
+C:\Users\User\Documents\GitHub\OS1\bin\Debug\List.exe.config
+C:\Users\User\Documents\GitHub\OS1\bin\Debug\List.exe
+C:\Users\User\Documents\GitHub\OS1\bin\Debug\List.pdb
+C:\Users\User\Documents\GitHub\OS1\obj\Debug\List.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\OS1\obj\Debug\List.Form1.resources
+C:\Users\User\Documents\GitHub\OS1\obj\Debug\List.Properties.Resources.resources
+C:\Users\User\Documents\GitHub\OS1\obj\Debug\List.csproj.GenerateResource.cache
+C:\Users\User\Documents\GitHub\OS1\obj\Debug\List.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\OS1\obj\Debug\List.exe
+C:\Users\User\Documents\GitHub\OS1\obj\Debug\List.pdb
+C:\Users\User\Documents\GitHub\OS1 — копия\bin\Debug\List.exe.config
+C:\Users\User\Documents\GitHub\OS1 — копия\bin\Debug\List.exe
+C:\Users\User\Documents\GitHub\OS1 — копия\bin\Debug\List.pdb
+C:\Users\User\Documents\GitHub\OS1 — копия\obj\Debug\List.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\OS1 — копия\obj\Debug\List.Form1.resources
+C:\Users\User\Documents\GitHub\OS1 — копия\obj\Debug\List.Properties.Resources.resources
+C:\Users\User\Documents\GitHub\OS1 — копия\obj\Debug\List.csproj.GenerateResource.cache
+C:\Users\User\Documents\GitHub\OS1 — копия\obj\Debug\List.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\OS1 — копия\obj\Debug\List.exe
+C:\Users\User\Documents\GitHub\OS1 — копия\obj\Debug\List.pdb

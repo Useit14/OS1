@@ -148,7 +148,7 @@ namespace List
             try
             {
                 listBox1.Items.Clear();
-                list.DivideForMegre(list.ToArray());
+                list.Sort();
                 ToList();
             }
             catch(Exception ex)
